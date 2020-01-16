@@ -1,3 +1,20 @@
 *{
 	box-sizing: border-box;
 }
+
+.bigbox{width: 960px; margin: auto; background-color: aqua;}
+
+.row{display: flex;}
+
+/* .col{width: 25% ;} semi-gut - nur wenn 4 fotos, sonst andere prozentzahlen, besser s. unten*/
+
+.col{flex: 1 1 auto}
+
+.col img{width: 100%}
+
+
+.spalte-float{float: left; width: 50%;}
+
+.spalte-float img{width: 100%;}
+
+.clearfix{clear: both;}
